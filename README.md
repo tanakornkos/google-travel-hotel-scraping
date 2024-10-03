@@ -38,18 +38,39 @@ CSV library
   pip install -r requirements.txt
 ```
 3. Update the CheckinDates list in the script with the desired dates.
+ ```bash
+CheckinDates = [
+    "9/25/2024",
+    "9/26/2024"
+    ]
+```
 4. Update the file_path variable with the path to your hotel list CSV file.
 5. Run the script using python main.py.
 
-## Input Table file_path .csv
+## Input 
+Table file_path .csv as
 file_path:
-HotelName | Date |
+HotelName | Checkin-Date |
 --- | --- 
-Hotel Something | mm/dd/YYYY
+Hotel 1 | 09/25/2024
+Hotel 2 | 09/25/2024
 
-## Output Table save_data .xlsx
-Shoprate Result:
+## Output 
+The script will output an Excel file named shoprateResult.xlsx containing the scraped data.
+Table save_data .xlsx
+ as Shoprate Result:
 Hotel	| Checkin Date| Checkout Date | Agoda	| Booking.com | 
 --- | ---  | --- | --- | ---  
-Hotel Something |  dd/mm/YYYY | dd/mm/YYYY | PriceTHB | PriceTHB
+Hotel 1 |  09/25/2024 | 09/26/2024 | PriceTHB | PriceTHB
+Hotel 1 |  09/26/2024 | 09/27/2024 | PriceTHB | PriceTHB
+Hotel 2 |  09/25/2024 | 09/26/2024 | PriceTHB | PriceTHB
+Hotel 2 |  09/26/2024 | 09/27/2024 | PriceTHB | PriceTHB
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://drive.google.com/file/d/1KqmKB8y0BCFsavThNPuRz3UGPokbZvkm/view?usp=sharing)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanakorn-kosawanichkarn-55b476233/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/zentn10)
+
+
 
